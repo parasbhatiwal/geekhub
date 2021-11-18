@@ -1,0 +1,254 @@
+/* Fonts */
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.eot");
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.woff2") format("woff2"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.woff") format("woff"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.ttf") format("truetype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-ExtraBold.svg#Fonts/Plus-Jakarta/PlusJakartaSans--ExtraBold")
+            format("svg");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.eot");
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.woff2") format("woff2"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.woff") format("woff"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.ttf") format("truetype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Bold.svg#Fonts/Plus-Jakarta/PlusJakartaSans--Bold") format("svg");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.eot");
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.woff2") format("woff2"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.woff") format("woff"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.ttf") format("truetype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Medium.svg#Fonts/Plus-Jakarta/PlusJakartaSans--Medium")
+            format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Plus Jakarta";
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.eot");
+    src: url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.eot?#iefix") format("embedded-opentype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.woff2") format("woff2"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.woff") format("woff"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.ttf") format("truetype"),
+        url("assets/fonts/Plus-Jakarta/PlusJakartaSans-Regular.svg#Fonts/Plus-Jakarta/PlusJakartaSans--Regular")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color: #000;
+    font-family: "Plus Jakarta";
+    text-transform: lowercase;
+}
+
+.geek-main-sec {
+    margin-top: 105px;
+}
+
+.bg-grey {
+    background-color: #1e1e1e;
+}
+
+.bg-blue {
+    background-color: #758ee8;
+    background-image: url("assets/img/geek-img.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.bg-orange {
+    background-color: #fd512b;
+}
+
+.geek-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 24px;
+    padding: 70px 55px;
+}
+
+.geek-logo {
+    width: 35%;
+    text-align: center;
+}
+
+.about-geekhub {
+    width: 65%;
+}
+
+.title {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 33px;
+    font-weight: 400;
+}
+
+.geekhub-brief {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 0;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+.discord-details {
+    background-color: #758ee8;
+    border-radius: 24px;
+    padding: 66px 45px 80px 100px;
+}
+
+.discord-join {
+    margin-top: 40px;
+}
+
+.discord-text {
+    max-width: 600px;
+}
+
+.discord-join a {
+    color: #758ee8;
+    padding: 21px 66px;
+    background-color: #f9f9f9;
+    text-decoration: none;
+    border-radius: 16px;
+}
+
+.geek-mid-sec {
+    margin: 51px auto;
+}
+
+.discord-managers {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.manager-profile {
+    display: flex;
+    background-color: #ff6847;
+    /* justify-content: space-between; */
+    width: 48%;
+    border-radius: 16px;
+    padding: 20px 0 20px 21px;
+    margin-top: 50px;
+}
+
+.manager-dp {
+    height: 110px;
+    width: 110px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.manager-personal-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 22px;
+}
+
+.manager-name h3 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.manager-mail a,
+.manager-number a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+.manager-dp{
+    background-image: url("assets/img/dp-1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 991px) {
+    .geek-details {
+        flex-direction: column;
+        align-items: center;
+    }
+    .geek-logo {
+        text-align: center;
+    }
+    .about-geekhub {
+        margin-top: 50px;
+    }
+    .about-geekhub,
+    .geek-logo {
+        width: 100%;
+    }
+    .discord-managers {
+        flex-direction: column;
+    }
+    .manager-profile {
+        width: 100%;
+    }
+    .geek-details-mid {
+        min-height: 700px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .manager-profile {
+        flex-direction: column;
+        align-items: center;
+    }
+    .manager-personal-details {
+        margin-left: 0;
+        margin-top: 22px;
+        align-items: center;
+    }
+    .manager-profile {
+        padding: 20px;
+    }
+    .geek-details {
+        padding: 47px 32px;
+        margin-bottom: 20px;
+    }
+    .discord-join {
+        text-align: center;
+    }
+
+    .geek-mid-sec {
+        margin: 0 auto;
+    }
+    .discord-join a {
+        display: inline-block;
+        width: 100%;
+    }
+    .bg-grey{
+        background-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .geek-details-mid {
+        min-height: 800px;
+    }
+}
